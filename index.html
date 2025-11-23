@@ -95,7 +95,8 @@
             "dutyai.chart.sidebar.widthPx",
           );
 
-          let visible = parseBool(persistedVisible, false);
+          // Always start closed on refresh regardless of previous session
+          let visible = false;
           let widthPx = clampWidth(
             parseInt(persistedWidth || "", 10),
             MIN_WIDTH,
@@ -342,27 +343,27 @@
       }
     </style>
     
-		<link href="./_app/immutable/assets/0.CaACNEkz.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/0.DVDddQw-.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/alert.B3IZgsFc.css" rel="stylesheet">
-		<link href="./_app/immutable/assets/2.BgLDCvgy.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.B8XsVHOL.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.CLK4XxrL.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.YiaeqLxp.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/i18n.D2_B-ZiS.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/stores.Omqp_QNb.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/runtime.R5XxWM_M.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-client.CGP9NETW.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/0.a-WoKVWW.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/alert.BiWnRlLV.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/lifecycle.w6iGiqR9.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.BB-1SzGI.js"><!--[--><!--[--><!--[--><!--[--><link rel="alternate" hreflang="en" href="http://sveltekit-prerender/"><link rel="alternate" hreflang="zh-CN" href="http://sveltekit-prerender/zh-CN/"><!--]--><!--]--><!--]--><!--]-->
+		<link href="./_app/immutable/assets/2.Q5w8cIyi.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.vQ2vRWu_.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.3-65OEDT.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DH6SXOht.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/i18n.D4IjjRhn.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/stores.CWtGE07o.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/runtime.FWTtCRY9.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index-client.D2j71php.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.CwVCJmRj.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/alert.5PVAgZfv.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/lifecycle.CeqxD2J4.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.DR5ki5z5.js"><!--[--><!--[--><!--[--><!--[--><link rel="alternate" hreflang="en" href="http://sveltekit-prerender/"><link rel="alternate" hreflang="zh-CN" href="http://sveltekit-prerender/zh-CN/"><!--]--><!--]--><!--]--><!--]-->
   </head>
   <body data-sveltekit-preload-data="hover">
     <div style="display: contents"><!--[--><!--[--><!----><!----><!----><div class="alerts-container svelte-1ykjk67"><!--[--><!--]--></div> <!----><!--[!--><!--]--><!----><!----><!----><!----><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1k7kn7b = {
+					__sveltekit_tcbq9g = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
@@ -371,8 +372,8 @@
 					const data = [null,null];
 
 					Promise.all([
-						import("./_app/immutable/entry/start.B8XsVHOL.js"),
-						import("./_app/immutable/entry/app.YiaeqLxp.js")
+						import("./_app/immutable/entry/start.vQ2vRWu_.js"),
+						import("./_app/immutable/entry/app.DH6SXOht.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
